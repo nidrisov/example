@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/introFirstFragment">
+
+    <fragment
+        android:id="@+id/introFirstFragment"
+        android:name="site.muerte.example.feature_auth.presentation.intro.IntroFirstFragment"
+        android:label="fragment_intro_first"
+        tools:layout="@layout/fragment_intro_first" />
+    <fragment
+        android:id="@+id/introSecondFragment"
+        android:name="site.muerte.example.feature_auth.presentation.intro.IntroSecondFragment"
+        android:label="fragment_intro_second"
+        tools:layout="@layout/fragment_intro_second" />
+    <fragment
+        android:id="@+id/introThirdFragment"
+        android:name="site.muerte.example.feature_auth.presentation.intro.IntroThirdFragment"
+        android:label="fragment_intro_third"
+        tools:layout="@layout/fragment_intro_third" />
+    <fragment
+        android:id="@+id/loginPhoneFragment"
+        android:name="site.muerte.example.feature_auth.presentation.login_phone.LoginPhoneFragment"
+        android:label="LoginPhoneFragment" />
+    <fragment
+        android:id="@+id/loginCodeFragment"
+        android:name="site.muerte.example.feature_auth.presentation.login_code.LoginCodeFragment"
+        android:label="LoginCodeFragment" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="site.muerte.example.feature_profile.presentation.profile.ProfileFragment"
+        android:label="ProfileFragment" />
+    <fragment
+        android:id="@+id/infoFragment"
+        android:name="site.muerte.example.core.presentation.info.InfoFragment"
+        android:label="fragment_info"
+        tools:layout="@layout/fragment_info" >
+        <argument
+            android:name="info"
+            app:argType="string"
+            app:nullable="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/supportFragment"
+        android:name="site.muerte.example.core.presentation.support.SupportFragment"
+        android:label="SupportFragment" />
+</navigation>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="support_button_height">98dp</dimen>
+    <dimen name="button_height">56dp</dimen>
+    <dimen name="header_height">65dp</dimen>
+    <dimen name="progress_side">100dp</dimen>
+
+    <dimen name="image_height">94dp</dimen>
+    <dimen name="image_width">158dp</dimen>
+
+    <dimen name="button_text_size">18sp</dimen>
+    <dimen name="header_text_size">22sp</dimen>
+    <dimen name="support_text_size">14sp</dimen>
+    <dimen name="edit_text_size">18sp</dimen>
+    <dimen name="text_view_size">16sp</dimen>
+</resources>

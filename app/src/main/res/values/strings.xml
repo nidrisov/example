@@ -1,0 +1,59 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!--App Info-->
+    <string name="app_name">Example</string>
+
+    <!--Intro-->
+    <string name="welcome_text_1">Добро пожаловать …</string>
+    <string name="welcome_text_2">Тут вы можете …</string>
+    <string name="welcome_text_3">Заполните короткую форму и …</string>
+    <string name="next">Далее</string>
+
+    <!--Support-->
+    <string name="back">Назад</string>
+    <string name="support">Нужна помощь?</string>
+    <string name="to_telegram">Написать в телеграм </string>
+    <string name="to_phone">Позвонить нам</string>
+    <string name="browser_not_found">Приложение «Браузер» не найдено</string>
+
+    <!--Login Phone-->
+    <string name="login_phone_text">Приложение</string>
+    <string name="enter_phone">Номер телефона</string>
+    <string name="phone_hint">+7 905 000 00 00</string>
+    <string name="invalid_number">Заполните номер телефона правильно</string>
+    <string name="send_to_support">Написать в поддержку</string>
+    <string name="unexpected_error">Ошибка. Попробуйте позже или обновите приложение</string>
+
+    <!--Login Code-->
+    <string name="login_code_text">Подтвердите номер\nтелефона</string>
+    <string name="enter_code">Введите код из СМС</string>
+    <string name="code_hint">0000</string>
+    <string name="send_again">Отправить СМС повторно</string>
+    <string name="toast_incorrect_code">Код введен неверно</string>
+
+    <!--Profile Info-->
+    <string name="person_info_title">Персональные данные</string>
+    <string name="surname">Фамилия</string>
+    <string name="enter_surname">Введите фамилию</string>
+    <string name="name">Имя</string>
+    <string name="enter_name">Введите имя</string>
+    <string name="middle_name">Отчество</string>
+    <string name="enter_middle_name">Введите отчество</string>
+    <string name="city">Город</string>
+    <string name="choose_city">Выберите город</string>
+    <string name="phone">Телефон</string>
+    <string name="email">Электронная почта</string>
+    <string name="enter_email">Введите почту</string>
+    <string name="info"><u>инфо</u></string>
+    <string name="fill_fields">Заполните все поля</string>
+    <string name="incorrect_city">Город указан неверно</string>
+    <string name="incorrect_email">Электронная почта указана неверно</string>
+    <string name="email_info">Указывайте актуальную электронную почту, так как …</string>
+    <string name="close">Закрыть</string>
+
+    <string name="dialog_loading">Выполняется обработка, ожидайте пожалуйста</string>
+
+    <string name="error_unknown">Неизвестная ошибка</string>
+    <string name="error_couldnt_reach_server">\ "Ой! Не удалось подключиться к серверу. Проверьте подключение к Интернету. \"</string>
+    <string name="oops_something_went_wrong">\ "Ой! Что-то пошло не так. Повторите попытку. \"</string>
+
+</resources>
